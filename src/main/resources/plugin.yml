@@ -1,0 +1,16 @@
+name: VoidSky
+version: 1.0
+main: com.voidsky.VoidSkyPlugin
+description: Teleport players falling into the void seamlessly to other worlds
+author: Alexxalla, Gemini (mostly)
+
+commands:
+  voidsky:
+    description: Main command for VoidSky
+    usage: /voidsky <help|reload|edit>
+    permission: voidsky.admin
+
+permissions:
+  voidsky.admin:
+    description: Allows management of VoidSky settings
+    default: op
